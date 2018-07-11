@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 
-class NavBar //....
+class NavBar extends React.Component {
+  render () {
 //[default]
-//visable line break at bottom of bar
-<div class="TitleContainer"></div>//n-h
-<div class="CartContainer"></div>//n-s
-<div class="CatalogueContainer"></div>//n-c
-<div class="ProfileContainer"></div>//n-p
-<div class="LeftHeadingContainer"></div>//n-t1
-<div class="RightHeadingContainer"></div>//n-t2
+    <div class="TitleContainer"></div>//n-h
+    <div class="CartContainer"></div>//n-s
+    <div class="CatalogueContainer"></div>//n-c
+    <div class="ProfileContainer"></div>//n-p
+    <div class="LeftHeadingContainer"></div>//n-t1
+    <div class="RightHeadingContainer"></div>//n-t2
+    <hr>
+  }
+}
 
+/*
 class Title //n-t
 //default
 
@@ -39,3 +43,4 @@ class RightHeading //n-rh
 
 
 export //classes...
+*/
