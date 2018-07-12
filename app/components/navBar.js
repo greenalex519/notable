@@ -10,8 +10,8 @@ class NavBar extends React.Component {
     <div class="LeftHeadingContainer"></div>//n-t1
     <div class="RightHeadingContainer"></div>//n-t2
     <hr>
-  }
-}
+  };
+};
 
 /*
 class Title //n-t
